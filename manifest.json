@@ -6,11 +6,11 @@
 	"description": "Adds a random query string to the url",
 
 	"background": {
-		"scripts": ["scripts/random.js"]
+		"scripts": ["scripts/background.js"],
+		"persistent": false
 	},
 
 	"permissions": [
-		"activeTab",
 		"tabs"
 	  ],
 
